@@ -9,8 +9,8 @@ class IconToggle extends PolymerElement {
           display: inline-block;
         }
         iron-icon {
-          fill: rgba(0,0,0,0);
-          stroke: currentcolor;
+          fill: var(--icon-toggle-color, rgba(0,0,0,0));
+          stroke: var(--icon-toggle-outline-color, currentcolor);
         }
         :host([pressed]) iron-icon {
           fill: currentcolor;
