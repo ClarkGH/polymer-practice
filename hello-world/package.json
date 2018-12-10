@@ -1,0 +1,8 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "basic hello-world polymer project",
+  "main": "index.js",
+  "author": "Clark Hinchcliff",
+  "license": "MIT"
+}
