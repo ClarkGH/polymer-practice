@@ -2,10 +2,18 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "basic hello-world polymer project",
-  "main": "index.js",
   "author": "Clark Hinchcliff",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config ./build/webpack.dev.config.js",
+    "prod": "webpack --config ./build/webpack.dev.config.js"
+  },
   "dependencies": {
-    "@polymer/polymer": "^3.1.0"
+    "@polymer/polymer": "^3.1.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
