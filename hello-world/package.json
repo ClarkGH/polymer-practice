@@ -4,5 +4,8 @@
   "description": "basic hello-world polymer project",
   "main": "index.js",
   "author": "Clark Hinchcliff",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.1.0"
+  }
 }
