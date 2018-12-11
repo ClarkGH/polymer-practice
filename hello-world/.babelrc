@@ -1,5 +1,23 @@
 {
   "presets": [
-    "@babel/preset-env"
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11",
+            "Safari >= 10"
+          ]
+        },
+        "exclude": [
+          "transform-classes"
+        ]
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }
