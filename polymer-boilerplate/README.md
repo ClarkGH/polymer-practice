@@ -8,4 +8,4 @@
 ## To Run
 1. Clone this repository
 2. Run yarn or npm install
-3. Open the html file in your browser
+3. Run yarn or npm run dev/prod depending on the webpack config that fits your needs
